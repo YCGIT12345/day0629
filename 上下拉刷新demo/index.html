@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+        <span class="nav-btn btn-left">定位</span>
+        <h1 class="title">首页</h1>
+        <span class="nav-btn btn-right">+</span>
+    </header>
+
+    
+    
+
+    <div class="content"><!--滚动容器-->
+
+        
+
+        <div class="wrap"><!--滚动视图-->
+
+            <!--  下拉刷新的dom  -->
+            <div class="refresh">
+                <strong>↓</strong>
+                <span>下拉可以刷新...</span>
+            </div>
+
+
+            <div class="banner">轮播图</div>
+            <div class="category">商品分类</div>
+            <div class="top">推荐商品</div>
+            <div class="list">
+                <h6>商品列表</h6>
+                <ul class="list-content">
+                    <li class="item">商品1</li>
+                    <li class="item">商品2</li>
+                    <li class="item">商品3</li>
+                    <li class="item">商品4</li>
+                    <li class="item">商品5</li>
+                </ul>
+            </div>
+
+
+            <!--  上拉加载更多的dom  -->
+            <div class="loadmore">
+                <strong>↑</strong>
+                <span>上拉可以加载更多...</span>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <nav class="tabs">
+        <li class="tab">首页</li>
+        <li class="tab">发现</li>
+        <li class="tab">社区</li>
+        <li class="tab">我的</li>
+    </nav>
+
+    <script src="./iscroll-probe.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
